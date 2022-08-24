@@ -2,7 +2,9 @@ package com.github.unidbg.android.ida;
 
 import com.github.unidbg.debugger.ida.Utils;
 import com.github.unidbg.utils.Inspector;
+
 import junit.framework.TestCase;
+
 import org.apache.commons.codec.binary.Hex;
 
 import java.nio.ByteBuffer;

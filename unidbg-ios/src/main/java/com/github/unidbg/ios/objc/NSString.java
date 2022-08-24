@@ -1,12 +1,12 @@
 package com.github.unidbg.ios.objc;
 
+import static com.github.unidbg.ios.objc.Constants.NSUTF8StringEncoding;
+
 import com.github.unidbg.PointerArg;
 import com.github.unidbg.ios.struct.objc.ObjcObject;
 import com.sun.jna.Pointer;
 
 import java.nio.charset.StandardCharsets;
-
-import static com.github.unidbg.ios.objc.Constants.NSUTF8StringEncoding;
 
 public class NSString implements PointerArg {
 

@@ -7,7 +7,9 @@ import com.github.unidbg.ios.struct.kernel.VmRegionBasicInfo;
 import com.github.unidbg.ios.struct.kernel.VmRegionBasicInfo64;
 import com.github.unidbg.ios.struct.sysctl.TaskVmInfo64;
 import com.github.unidbg.utils.Inspector;
+
 import junit.framework.TestCase;
+
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.codec.digest.DigestUtils;

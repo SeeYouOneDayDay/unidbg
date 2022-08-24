@@ -2,6 +2,7 @@ package com.github.unidbg.android;
 
 import com.github.unidbg.Emulator;
 import com.github.unidbg.LibraryResolver;
+
 import junit.framework.TestCase;
 
 public abstract class EmulatorTest<T extends Emulator<?>> extends TestCase {

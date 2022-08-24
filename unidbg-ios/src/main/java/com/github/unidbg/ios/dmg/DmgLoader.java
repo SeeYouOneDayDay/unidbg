@@ -15,13 +15,13 @@ import com.github.unidbg.ios.ipa.EmulatorConfigurator;
 import com.github.unidbg.ios.ipa.SymbolResolver;
 import com.github.unidbg.memory.Memory;
 import com.github.unidbg.spi.SyscallHandler;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.xml.sax.SAXException;
 
-import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -29,6 +29,8 @@ import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
+
+import javax.xml.parsers.ParserConfigurationException;
 
 public abstract class DmgLoader extends BaseLoader {
 

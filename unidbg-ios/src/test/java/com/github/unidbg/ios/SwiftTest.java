@@ -10,8 +10,8 @@ import com.github.unidbg.hook.DispatchAsyncCallback;
 import com.github.unidbg.hook.HookLoader;
 import com.github.unidbg.ios.ipa.SymbolResolver;
 import com.github.unidbg.memory.Memory;
-import com.github.unidbg.pointer.UnidbgPointer;
 import com.sun.jna.Pointer;
+
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 

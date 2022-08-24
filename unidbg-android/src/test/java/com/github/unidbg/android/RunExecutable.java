@@ -10,8 +10,8 @@ import com.github.unidbg.memory.Memory;
 import com.github.unidbg.pointer.UnidbgPointer;
 import com.github.unidbg.unix.UnixEmulator;
 import com.sun.jna.Pointer;
+
 import net.fornwall.jelf.ElfSymbol;
-import org.apache.commons.io.IOUtils;
 
 import java.io.File;
 import java.io.IOException;

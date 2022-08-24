@@ -6,6 +6,7 @@ import com.github.unidbg.ios.MachOModule;
 import com.github.unidbg.ios.struct.objc.ObjcClass;
 import com.github.unidbg.pointer.UnidbgPointer;
 import com.sun.jna.Pointer;
+
 import io.kaitai.MachO;
 
 public class UniObjectiveProcessor extends CDObjectiveCProcessor {

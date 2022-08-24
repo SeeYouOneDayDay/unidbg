@@ -10,8 +10,10 @@ import com.github.unidbg.memory.MemoryMap;
 import com.sun.jna.NativeLong;
 import com.sun.jna.Pointer;
 import com.sun.jna.WString;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+
 import unicorn.UnicornConst;
 
 import java.io.ByteArrayOutputStream;

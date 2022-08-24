@@ -44,11 +44,14 @@ import com.github.unidbg.unix.IO;
 import com.github.unidbg.unix.UnixSyscallHandler;
 import com.github.unidbg.utils.Inspector;
 import com.sun.jna.Pointer;
+
 import io.kaitai.MachO;
 import io.kaitai.struct.ByteBufferKaitaiStream;
+
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+
 import unicorn.Arm64Const;
 import unicorn.ArmConst;
 import unicorn.Unicorn;

@@ -22,13 +22,14 @@ import com.github.unidbg.linux.android.dvm.jni.ProxyClassFactory;
 import com.github.unidbg.memory.Memory;
 import com.github.unidbg.utils.Inspector;
 
+import java.io.File;
+import java.io.IOException;
+
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.DESedeKeySpec;
 import javax.crypto.spec.IvParameterSpec;
-import java.io.File;
-import java.io.IOException;
 
 public class QDReaderJni implements ModuleListener {
 

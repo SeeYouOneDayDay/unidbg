@@ -15,13 +15,13 @@ import com.github.unidbg.ios.MachOLoader;
 import com.github.unidbg.ios.MachOModule;
 import com.github.unidbg.memory.Memory;
 import com.github.unidbg.spi.SyscallHandler;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.xml.sax.SAXException;
 
-import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -35,6 +35,8 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import javax.xml.parsers.ParserConfigurationException;
 
 public abstract class IpaLoader extends BaseLoader {
 

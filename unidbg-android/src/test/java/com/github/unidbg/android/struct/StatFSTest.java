@@ -1,7 +1,9 @@
 package com.github.unidbg.android.struct;
 
 import com.github.unidbg.utils.Inspector;
+
 import junit.framework.TestCase;
+
 import org.apache.commons.codec.binary.Hex;
 
 public class StatFSTest extends TestCase {

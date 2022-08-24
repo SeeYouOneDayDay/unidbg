@@ -1,5 +1,9 @@
 package com.github.unidbg.ios;
 
+import static com.github.unidbg.ios.MachO.MAP_MY_FIXED;
+import static com.github.unidbg.ios.file.SocketIO.AF_LINK;
+import static com.github.unidbg.ios.file.SocketIO.AF_ROUTE;
+
 import com.github.unidbg.AbstractEmulator;
 import com.github.unidbg.Emulator;
 import com.github.unidbg.LongJumpException;
@@ -97,9 +101,11 @@ import com.github.unidbg.unix.struct.TimeSpec;
 import com.github.unidbg.unix.struct.TimeVal32;
 import com.github.unidbg.utils.Inspector;
 import com.sun.jna.Pointer;
+
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+
 import unicorn.ArmConst;
 import unicorn.UnicornConst;
 
@@ -108,10 +114,6 @@ import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
-
-import static com.github.unidbg.ios.MachO.MAP_MY_FIXED;
-import static com.github.unidbg.ios.file.SocketIO.AF_LINK;
-import static com.github.unidbg.ios.file.SocketIO.AF_ROUTE;
 
 /**
  * http://androidxref.com/4.4.4_r1/xref/external/kernel-headers/original/asm-arm/unistd.h

@@ -2,6 +2,7 @@ package com.github.unidbg.ios;
 
 import com.github.unidbg.Emulator;
 import com.github.unidbg.Symbol;
+
 import io.kaitai.MachO;
 
 public class MachOSymbol extends Symbol implements com.github.unidbg.ios.MachO {

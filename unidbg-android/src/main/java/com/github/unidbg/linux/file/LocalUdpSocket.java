@@ -3,12 +3,12 @@ package com.github.unidbg.linux.file;
 import com.github.unidbg.Emulator;
 import com.github.unidbg.file.FileIO;
 import com.sun.jna.Pointer;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
-import java.net.SocketException;
 
 public abstract class LocalUdpSocket extends SocketIO implements FileIO {
 

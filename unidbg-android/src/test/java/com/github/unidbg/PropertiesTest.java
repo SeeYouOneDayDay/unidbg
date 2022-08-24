@@ -2,7 +2,9 @@ package com.github.unidbg;
 
 import com.github.unidbg.debugger.ida.Utils;
 import com.github.unidbg.utils.Inspector;
+
 import junit.framework.TestCase;
+
 import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.io.FileUtils;
 

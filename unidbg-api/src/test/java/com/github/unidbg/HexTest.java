@@ -4,9 +4,12 @@ import capstone.api.Disassembler;
 import capstone.api.DisassemblerFactory;
 import capstone.api.Instruction;
 import capstone.api.RegsAccess;
+
 import com.github.unidbg.arm.ARM;
 import com.github.unidbg.utils.Inspector;
+
 import junit.framework.TestCase;
+
 import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.io.FileUtils;
 

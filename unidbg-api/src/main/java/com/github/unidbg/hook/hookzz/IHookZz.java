@@ -6,7 +6,6 @@ import com.github.unidbg.arm.context.RegisterContext;
 import com.github.unidbg.hook.IHook;
 import com.github.unidbg.hook.InlineHook;
 import com.github.unidbg.hook.ReplaceCallback;
-import com.sun.jna.Pointer;
 
 public interface IHookZz extends IHook, InlineHook {
 
